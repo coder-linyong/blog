@@ -6,8 +6,9 @@ import getNav from './config/nav'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "个人博客",
-  description: "my blog!!!!!!",
+  title: '个人博客',
+  description: 'my blog!!!!!!',
+  base: '/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: getNav(),
@@ -15,7 +16,7 @@ export default defineConfig({
     sidebar: getSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/coder-linyong' }
+      {icon: 'github', link: 'https://github.com/coder-linyong'}
     ]
   }
 })
