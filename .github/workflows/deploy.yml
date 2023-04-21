@@ -23,7 +23,7 @@ jobs:
           cache: npm
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.3.2
+          version: 6.0.2
       - run: pnpm ci
       - name: Build
         run: pnpm run docs:build
