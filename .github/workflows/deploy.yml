@@ -14,16 +14,16 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.32.9
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'pnpm'
+          node-version: 18
+          cache: pnpm
       - run: pnpm install
       - name: Build
         run: pnpm run docs:build
