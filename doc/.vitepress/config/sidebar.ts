@@ -8,7 +8,6 @@ function getSidebarDeep (pathStr:string) {
   fs.readdirSync(getAbsolutePath(pathStr)).forEach((value,index)=>{
     const relativePath=`${pathStr}/${value}`
 
-    if (value==='index.md') return
     const absolutePath=getAbsolutePath(relativePath)
     const stat=fs.statSync(absolutePath)
     if (stat.isFile()) {
