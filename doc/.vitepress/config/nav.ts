@@ -18,7 +18,6 @@ export default function getNav(pathStr='/'):DefaultTheme.NavItem[] {
     }
     config.push({ text: value, link: `${relativePath}/` },)
   })
-  console.log(config)
 
   return config
 }
