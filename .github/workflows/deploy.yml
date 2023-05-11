@@ -11,6 +11,8 @@ jobs:
       contents: write
       pages: write
       id-token: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
         with:
