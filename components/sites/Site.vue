@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { defineProps } from 'vue'
+import EarthSvg from './imgs/earth.svg'
 
 const {title, des, url} = defineProps<{
   url: string;
@@ -10,17 +11,17 @@ const {title, des, url} = defineProps<{
 </script>
 
 <template>
-  <a :class="$style.link" :href="url">
-    <img :alt="title" :class="$style.icon" :src="icon">
-    <div :class="$style.title">title</div>
-    <div :class="$style.des">des</div>
+  <a :class="$style.link" :href="url" target="_blank">
+    <img :alt="title" :class="$style.icon" :src="icon || EarthSvg">
+    <div :class="$style.title" :title="title">{{ title }}</div>
+    <div :class="$style.des" :title="des">{{ des }}</div>
   </a>
 </template>
 
 <style lang="stylus" module>
 .link
   display grid
-  grid-gap 16px 24px
+  grid-gap 8px 16px
   grid-template-columns 48px auto
   grid-template-rows repeat(2, 1fr)
   align-items center
@@ -50,6 +51,7 @@ oneLine()
 .title
   grid-area 1 / 2 / 2 / 3
   font-weight bold
+  font-size 18px
   oneLine()
 
 .des
