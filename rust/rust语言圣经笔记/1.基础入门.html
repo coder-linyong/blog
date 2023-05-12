@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>变量绑定与解构 | 个人博客</title>
     <meta name="description" content="my blog!!!!!!">
-    <link rel="preload stylesheet" href="/blog/assets/style.5ab59b99.css" as="style">
-    <script type="module" src="/blog/assets/app.2378c78c.js"></script>
+    <link rel="preload stylesheet" href="/blog/assets/style.3aaebe81.css" as="style">
+    <script type="module" src="/blog/assets/app.06243db8.js"></script>
     <link rel="preload" href="/blog/assets/inter-roman-latin.2ed14f66.woff2" as="font" type="font/woff2" crossorigin="">
-  <link rel="modulepreload" href="/blog/assets/chunks/framework.943053e3.js">
-  <link rel="modulepreload" href="/blog/assets/chunks/theme.8e9b17bf.js">
-  <link rel="modulepreload" href="/blog/assets/rust_rust语言圣经笔记_1.基础入门.md.1ec960eb.lean.js">
+  <link rel="modulepreload" href="/blog/assets/chunks/framework.bae86322.js">
+  <link rel="modulepreload" href="/blog/assets/chunks/theme.eb6f92e7.js">
+  <link rel="modulepreload" href="/blog/assets/rust_rust语言圣经笔记_1.基础入门.md.cea2c08a.lean.js">
   <script id="check-dark-light">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
   </head>
   <body>
@@ -412,7 +412,7 @@
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#C792EA;">let</span><span style="color:#A6ACCD;"> s </span><span style="color:#89DDFF;">=</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">Hello, world!</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">;</span></span>
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#C792EA;">let</span><span style="color:#A6ACCD;"> s</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&amp;</span><span style="color:#FFCB6B;">str</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">=</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">Hello, world!</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;">;</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h3 id="字符串" tabindex="-1">字符串 <a class="header-anchor" href="#字符串" aria-label="Permalink to &quot;字符串&quot;">​</a></h3><p>字符串是由字符组成的连续集合（UTF-8编码），Rust的字符串中的字符所占字节是变化的（1-4），这样有助于降低内存空间占用。</p><p>Rust语言级别只有一种字符串类型——<code>str</code>，但在标准库中有多种不同用途的字符串，如使用最广泛地<code>String</code>类型。 <code>str</code>类型是硬编码进可执行文件，无法被修改；<code>String</code>则是一个可增长、可改变且具有所有权的UTF-8编码字符串。* <em>当Rust用户提到字符串时，往往指的就是<code>String</code>类型和<code>&amp;str</code>字符串切片类型，这两个类型都是UTF-8编码。</em>*</p><p>除了String类型字符串，Rust标准库中提供了其他类型字符串，如：<code>OsString</code>、<code>OsStr</code>、<code>CsString</code>、<code>CsStr</code>，其中以<code>String</code>、<code>str</code> 结尾分别对应的是具有所有权和被借用的变量。</p><h3 id="string与-str的转换" tabindex="-1">String与&amp;Str的转换 <a class="header-anchor" href="#string与-str的转换" aria-label="Permalink to &quot;String与&amp;Str的转换&quot;">​</a></h3></div></div></main><footer class="VPDocFooter" data-v-91d91bc5 data-v-806bd2e8><!--[--><!--]--><div class="edit-info" data-v-806bd2e8><!----><div class="last-updated" data-v-806bd2e8><p class="VPLastUpdated" data-v-806bd2e8 data-v-d5ab5c64>Last updated: <time datetime="2023-05-11T14:14:00.000Z" data-v-d5ab5c64></time></p></div></div><div class="prev-next" data-v-806bd2e8><div class="pager" data-v-806bd2e8><!----></div><div class="pager" data-v-806bd2e8><a class="pager-link next" href="/blog/rust/rust%E8%AF%AD%E8%A8%80%E5%9C%A3%E7%BB%8F%E7%AC%94%E8%AE%B0/1.%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8.html" data-v-806bd2e8><span class="desc" data-v-806bd2e8>Next page</span><span class="title" data-v-806bd2e8>1.基础入门</span></a></div></div></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"b5a94a87\",\"rust_index.md\":\"c9a2fe41\",\"导航_index.md\":\"79b7d466\",\"rust_rust语言圣经笔记_1.基础入门.md\":\"1ec960eb\"}")
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"rust_index.md\":\"39936b09\",\"index.md\":\"a2df71b4\",\"导航_index.md\":\"4061db10\",\"rust_rust语言圣经笔记_1.基础入门.md\":\"cea2c08a\"}")
 __VP_SITE_DATA__ = JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"个人博客\",\"description\":\"my blog!!!!!!\",\"base\":\"/blog/\",\"head\":[],\"appearance\":true,\"themeConfig\":{\"nav\":[{\"text\":\"rust\",\"link\":\"/rust/\"},{\"text\":\"导航\",\"link\":\"/导航/\"}],\"sidebar\":{\"/rust\":[{\"text\":\"rust语言圣经笔记\",\"items\":[{\"text\":\"1.基础入门\",\"link\":\"/rust/rust语言圣经笔记//1.基础入门\"}],\"collapsed\":true}],\"/导航\":[]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/coder-linyong\"}]},\"locales\":{},\"scrollOffset\":90,\"cleanUrls\":false}")</script>
     
   </body>
