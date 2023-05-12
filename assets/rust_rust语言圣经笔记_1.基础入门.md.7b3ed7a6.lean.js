@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,O as l}from"./chunks/framework.943053e3.js";const i=JSON.parse('{"title":"变量绑定与解构","description":"","frontmatter":{},"headers":[],"relativePath":"rust/rust语言圣经笔记/1.基础入门.md"}'),p={name:"rust/rust语言圣经笔记/1.基础入门.md"},o=l("",209),e=[o];function t(c,r,D,y,F,C){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};
