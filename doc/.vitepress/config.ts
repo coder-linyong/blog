@@ -20,7 +20,8 @@ export default defineConfig({
 
     socialLinks: [
       {icon: 'github', link: 'https://github.com/coder-linyong'}
-    ]
+    ],
+    outline:'deep'
   },
   vite:{
     resolve:{
