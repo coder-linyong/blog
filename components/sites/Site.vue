@@ -12,7 +12,9 @@ const {title, des, url} = defineProps<{
 
 <template>
   <a :class="$style.link" :href="url" target="_blank">
-    <img :alt="title" :class="$style.icon" :src="icon || EarthSvg">
+    <div :class="$style.iconWrapper">
+      <img :alt="title" :class="$style.icon" :src="icon || EarthSvg">
+    </div>
     <div :class="$style.title" :title="title">{{ title }}</div>
     <div :class="$style.des" :title="des">{{ des }}</div>
   </a>
@@ -22,30 +24,46 @@ const {title, des, url} = defineProps<{
 .link
   display grid
   grid-gap 8px 16px
-  grid-template-columns 48px auto
+  grid-template-columns 60px auto
   grid-template-rows repeat(2, 1fr)
   align-items center
   text-decoration none !important
   color var(--vp-c-text-1) !important
   border-radius 8px
-  border 1px solid var(--vp-c-green)
+  border 1px solid var(--vp-c-bg-soft)
   padding 16px
-  background var(--vp-c-brand)
+  background-color var(--vp-c-bg-soft)
+  transition all .25s !important
 
   &:hover
-    background var(--vp-c-brand-light)
+    box-shadow var(--vp-shadow-2)
+    border-color var(--vp-c-brand)
+    text-decoration initial
+    background-color var(--vp-c-bg-soft-up)
 
   &:active
-    background var(--vp-c-brand-lighter)
+    box-shadow var(--vp-shadow-2)
+    border-color var(--vp-c-brand)
+    text-decoration initial
+    background-color var(--vp-c-bg-soft-up)
 
 oneLine()
   white-space nowrap
   overflow hidden
   text-overflow ellipsis
 
+.iconWrapper
+  display flex
+  justify-content center
+  align-items center
+  width 60px
+  height 60px
+  grid-area 1 / 1 / 3 / 2
+  background rgba(255, 255, 245, .86)
+  border-radius 4px
+
 .icon
   width 48px
-  grid-area 1 / 1 / 3 / 2
   border-radius 4px
 
 .title
