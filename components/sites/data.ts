@@ -119,27 +119,6 @@ export const sites: Array<{
     ]
   },
   {
-    title: '工具',
-    list: [
-      {
-        icon: 'https://caniuse.com/img/favicon-128.png',
-        url: 'https://caniuse.com//',
-        title: 'caniuse',
-        des: '前端API兼容性查询'
-      },
-      {
-        url: 'https://codepen.io/',
-        title: 'CodePen',
-        des: '一个在线代码编辑器和社区，用于展示、分享和学习前端开发技术。'
-      },
-      {
-        url: 'https://www.smashingmagazine.com/',
-        title: 'Smashing Magazine',
-        des: '一个关注Web设计和开发的在线杂志，提供有关最新趋势和最佳实践的文章和教程。'
-      }
-    ]
-  },
-  {
     title: '常用工具',
     list: [
       {
@@ -147,6 +126,11 @@ export const sites: Array<{
         title: 'Can I use',
         des: '前端 API 兼容性查询',
         url: 'https://caniuse.com'
+      },
+      {
+        title: 'Regex Vis',
+        des: '正则表达式可视化',
+        url: 'https://regex-vis.com//'
       },
       {
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
@@ -167,10 +151,14 @@ export const sites: Array<{
         url: 'https://tool.lu'
       },
       {
-        icon: '/icons/json-cn.ico',
         title: 'Json 中文网',
         des: 'JSON 在线解析及格式化验证',
         url: 'https://www.json.cn'
+      },
+      {
+        title: '临时邮箱',
+        des: '临时邮箱、临时邮、临时电子邮箱、24小时邮箱',
+        url: 'http://24mail.chacuo.net/'
       }
     ]
   },
@@ -200,6 +188,11 @@ export const sites: Array<{
         title: 'Beautiful.ai（PPT）',
         des: 'Beautiful.ai（PPT）',
         url: 'https://www.beautiful.ai'
+      },
+      {
+        title: 'copilot',
+        des: '智能代码生成工具',
+        url: 'https://github.com/features/copilot'
       }
     ]
   },

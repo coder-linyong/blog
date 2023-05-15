@@ -11,8 +11,11 @@ export default defineConfig({
   title: '个人博客',
   description: 'my blog!!!!!!',
   base: '/blog/',
-  lastUpdated:true,
+  lastUpdated: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: getNav(),
 
@@ -21,16 +24,17 @@ export default defineConfig({
     socialLinks: [
       {icon: 'github', link: 'https://github.com/coder-linyong'}
     ],
-    outline:'deep'
+    outline: {
+      level: 'deep',
+      label: '大纲'
+    }
   },
-  vite:{
-    resolve:{
-      alias:{
-        '@':path.resolve(getAbsolutePath('/components'))
+  vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(getAbsolutePath('/components'))
       }
     }
   },
-  vue:{
-
-  }
+  vue: {}
 })
