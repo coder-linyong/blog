@@ -4,7 +4,6 @@ import { sites } from './data'
 </script>
 
 <template>
-  <h1>网址导航</h1>
   <template v-for="site of sites">
     <h2 :class="$style.title">{{ site.title }}</h2>
     <aside :class="$style.content">

@@ -8,8 +8,8 @@ import { getAbsolutePath, getDocAbsolutePath } from '../../utils'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '个人博客',
-  description: 'my blog!!!!!!',
+  title: 'linyong\'s blog',
+  description: 'my blog!',
   base: '/blog/',
   lastUpdated: true,
   themeConfig: {
@@ -26,7 +26,7 @@ export default defineConfig({
     ],
     outline: {
       level: 'deep',
-      label: '大纲'
+      label: '本文大纲'
     }
   },
   vite: {

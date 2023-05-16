@@ -56,6 +56,11 @@ export const sites: Array<{
         title: '博客园',
         icon: 'https://www.cnblogs.com/images/logo.svg?v=R9M0WmLAIPVydmdzE2keuvnjl-bPR7_35oHqtiBzGsM',
         des: '博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。博客园的使命是帮助开发者用代码改变世界。'
+      },
+      {
+        url: 'https://ld246.com/',
+        title: '链滴',
+        des: '链滴是一个技术社区网站，提供关于区块链、人工智能、云计算等领域的技术文章、视频、课程等资源。'
       }
     ]
   },
@@ -163,10 +168,64 @@ export const sites: Array<{
     ]
   },
   {
+    title: 'CSS工具',
+    list: [
+      {
+        title: 'Neumorphism.io',
+        des: 'Neumorphism.io是一个展示新拟态设计趋势的网站，也称为软 UI 或新拟物化。它使用阴影生成软 UI CSS 样式。',
+        url: 'https://neumorphism.io/#e0e0e0'
+      },
+      {
+        title: 'Neumorphism',
+        des: 'Animista是一个提供 CSS 动画和动画预设集合的网站，可以轻松自定义并应用于 Web 元素。',
+        url: 'https://animista.net/play'
+      },
+      {
+        title: 'Spin Kit',
+        des: '提供了一系列简单、轻量级和可自定义的微调器，可以轻松集成到 Web 项目中。',
+        url: 'https://tobiasahlin.com/spinkit/'
+      },
+      {
+        title: 'grid布局生成器',
+        des: '基于Web的工具，可帮助开发人员使用 CSS Grid 创建复杂的网格布局。网格布局是一种为网页创建灵活和响应式设计的强大方式。',
+        url: 'https://cssgrid-generator.netlify.app/'
+      },
+      {
+        title: '布局生成器',
+        des: '基于 Web 的工具，允许开发人员创建和试验 CSS 布局样式。它为设计和自定义布局组件提供了一个可视化界面。',
+        url: 'https://layout.bradwoods.io/'
+      },
+      {
+        title: 'Shadows Brumm',
+        des: '用于生成 CSS 框阴影效果。它提供了一个易于使用的界面，允许用户使用各种参数和选项创建复杂且视觉上吸引人的框阴影效果。',
+        url: 'https://shadows.brumm.af/'
+      },
+      {
+        title: 'Shadows Brumm',
+        des: '用于生成 CSS 框阴影效果。它提供了一个易于使用的界面，允许用户使用各种参数和选项创建复杂且视觉上吸引人的框阴影效果。',
+        url: 'https://shadows.brumm.af/'
+      },
+      {
+        title: '玻璃拟态生成器',
+        des: '使用透明和模糊的玻璃状背景来为用户界面创建现代、时尚的外观。',
+        url: 'https://shadows.brumm.af/'
+      },
+      {
+        title: 'Cubic-Bezier',
+        des: 'Cubic-Bezier是一种基于网络的工具，允许用户创建自定义缓动曲线、动画和过渡。',
+        url: 'https://cubic-bezier.com/#.17,.67,.83,.67'
+      },
+      {
+        title: 'Cubic-Bezier',
+        des: 'Cubic-Bezier是一种基于网络的工具，允许用户创建自定义缓动曲线、动画和过渡。',
+        url: 'https://cubic-bezier.com/#.17,.67,.83,.67'
+      }
+    ]
+  },
+  {
     title: 'AI 导航',
     list: [
       {
-        icon: '/icons/chatgpt.png',
         title: 'ChatGPT（最强）',
         des: 'ChatGPT（最强）',
         url: 'https://chat.openai.com/chat'
@@ -354,8 +413,7 @@ export const sites: Array<{
         url: 'https://svelte.dev'
       },
       {
-        // icon: 'https://simpleicons.org/icons/jquery.svg',
-        icon: '/icons/jquery.svg',
+        icon: 'https://simpleicons.org/icons/jquery.svg',
         title: 'jQuery API 中文文档',
         des: '一个兼容多浏览器的 JavaScript 框架',
         url: 'https://jquery.cuishifeng.cn'
@@ -395,7 +453,6 @@ export const sites: Array<{
         url: 'https://developers.weixin.qq.com/miniprogram/dev/framework/'
       },
       {
-        icon: '/icons/taro.svg',
         title: 'Taro',
         des: '多端统一开发解决方案',
         url: 'https://taro.jd.com'
@@ -459,7 +516,6 @@ export const sites: Array<{
         url: 'https://echarts.apache.org/zh/index.html'
       },
       {
-        icon: 'https://antv.vision/icons/icon-72x72.png',
         title: 'AntV',
         des: '蚂蚁集团全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
         url: 'https://antv.vision/zh/'
