@@ -61,6 +61,12 @@ export const sites: Array<{
         url: 'https://ld246.com/',
         title: '链滴',
         des: '链滴是一个技术社区网站，提供关于区块链、人工智能、云计算等领域的技术文章、视频、课程等资源。'
+      },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/65109694?s=200&v=4',
+        url: 'https://github.com/JSCIG',
+        title: 'JavaScript 中文讨论组',
+        des: 'JavaScript 中文讨论组'
       }
     ]
   },
