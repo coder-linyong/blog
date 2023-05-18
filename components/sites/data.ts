@@ -34,6 +34,12 @@ export const sites: Array<{
         des: '一个问答社区网站，专注于程序开发和技术问题。'
       },
       {
+        icon: 'https://web.dev/images/favicon-32x32.png',
+        url: 'https://web.dev/',
+        title: 'web.dev',
+        des: '由谷歌提供的网站，旨在帮助开发人员学习和实践现代 Web 开发技术。它提供了各种各样的资源，包括文章、教程、工具和指南，涵盖了 Web 开发的各个方面，例如性能优化、安全性、可访问性和 PWA 等。'
+      },
+      {
         icon: 'https://static.segmentfault.com/main_site_next/84801210/_next/static/media/logo-b.1ef53c6e.svg',
         url: 'https://segmentfault.com/',
         title: '思否',
