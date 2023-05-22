@@ -156,6 +156,18 @@ export const sites: Array<{
         url: 'https://tinypng.com'
       },
       {
+        icon: 'https://compress-or-die.com/public/icons/favicon-96x96.png?cache[immutable]=81',
+        title: 'COMPRESSORDIE',
+        des: 'jpeg、svg、webp、gif等无损压缩',
+        url: 'https://compress-or-die.com/'
+      },
+      {
+        icon: 'https://cdn.freeconvert.com/logo_theme.svg',
+        title: 'FreeConvert',
+        des: '文件转换、文件压缩',
+        url: 'https://www.freeconvert.com/'
+      },
+      {
         icon: 'https://devtool.tech/logo.svg',
         title: '开发者武器库',
         des: '开发者武器库，做开发者最专业最好用的专业工具箱',
