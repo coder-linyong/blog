@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import getSidebar from './config/sidebar'
 import getNav from './config/nav'
 import * as path from 'path'
-import { getAbsolutePath, getDocAbsolutePath } from '../../utils'
+import { getAbsolutePath } from '../../utils'
 
 // 参考博客：https://github.com/Charles7c/charles7c.github.io
 
@@ -32,7 +32,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@': path.resolve(getAbsolutePath('/components'))
+        '@': path.resolve(getAbsolutePath('/components')),
+        '@img': path.resolve(getAbsolutePath('/public/img')),
       }
     }
   },
