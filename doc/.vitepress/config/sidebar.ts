@@ -30,6 +30,7 @@ export default function getSidebar(pathStr='/'):DefaultTheme.Sidebar {
   const excludePaths=[
     '/.vitepress',
     '/index.md',
+    '/public',
   ]
   const config={}
 

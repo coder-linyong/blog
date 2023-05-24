@@ -7,6 +7,7 @@ export default function getNav(pathStr='/'):DefaultTheme.NavItem[] {
   const excludePaths=[
     '/.vitepress',
     '/index.md',
+    '/public',
   ]
   const config=[]
 

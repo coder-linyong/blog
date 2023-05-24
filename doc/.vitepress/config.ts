@@ -33,7 +33,6 @@ export default defineConfig({
     resolve: {
       alias: {
         '@': path.resolve(getAbsolutePath('/components')),
-        '@img': path.resolve(getAbsolutePath('/public/img')),
       }
     }
   },
