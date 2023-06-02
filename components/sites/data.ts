@@ -100,6 +100,12 @@ export const sites: Array<{
         url: 'https://www.zhihu.com/',
         title: '知乎',
         des: '知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、影视、时尚、文化等领域最具创造力的人群，已成为综合性、全品类、在诸多领域具有关键影响力的知识分享社区和创作者聚集的原创内容平台，建立起了以社区驱动的内容变现商业模式。'
+      },
+      {
+        icon: 'https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/favicon.ico',
+        url: 'https://meta.stackexchange.com/',
+        title: 'Stack Exchange',
+        des: 'Stack Exchange是一个在线问答社区，旨在让人们通过提问、回答和投票来共享知识和解决问题。它包括许多不同的主题，包括编程、数学、科学、历史、文化等等。'
       }
     ]
   },
