@@ -282,6 +282,11 @@ export const sites: Array<{
         title: 'copilot',
         des: '智能代码生成工具',
         url: 'https://github.com/features/copilot'
+      },
+      {
+        title: 'ChatGPT Turbo',
+        des: '免费ChatGPT',
+        url: 'https://gptai.cloud/'
       }
     ]
   },
