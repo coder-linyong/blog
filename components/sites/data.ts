@@ -680,5 +680,35 @@ export const sites: Array<{
         url: ''
       }
     ]
+  },
+  {
+    title: '开发资源合集',
+    list: [
+      {
+        title: 'Design Resources for developers',
+        des: '丰富的前端开发资源：图标、字体、照片、库、框架在线攻击合集',
+        url: 'https://github.com/bradtraversy/design-resources-for-developers'
+      },
+      {
+        title: '黑客资源合集',
+        des: '黑客/渗透测试资源合集',
+        url: 'https://github.com/vitalysim/Awesome-Hacking-Resources'
+      },
+      {
+        title: 'App创意合集',
+        des: '一个项目列表，旨在帮助开发者解决缺乏构建项目的创意的问题。这个列表包含了一些应用程序，它们适合用来提高编码技能，尝试新的技术，增加自己的作品集，作为教程示例或者是易于扩展的项目等。每个项目都包括了明确的目标、用户故事和一些额外的特性，以及完成项目所需的资源和链接。',
+        url: 'https://github.com/florinpop17/app-ideas'
+      },
+      {
+        title: '免费的计算机编程类中文书籍',
+        des: '免费的计算机编程类中文书籍',
+        url: 'https://github.com/justjavac/free-programming-books-zh_CN'
+      },
+      {
+        title: 'Javascript 测试：最佳实践',
+        des: '这个存储库包含一些文本，创建并翻译成多种语言，关于 JavaScript 测试和 Node.js。该存储库涵盖了该',
+        url: 'https://github.com/justjavac/free-programming-books-zh_CN'
+      }
+    ]
   }
 ]
