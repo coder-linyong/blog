@@ -244,11 +244,6 @@ export const sites: Array<{
         title: 'Cubic-Bezier',
         des: 'Cubic-Bezier是一种基于网络的工具，允许用户创建自定义缓动曲线、动画和过渡。',
         url: 'https://cubic-bezier.com/#.17,.67,.83,.67'
-      },
-      {
-        title: 'Cubic-Bezier',
-        des: 'Cubic-Bezier是一种基于网络的工具，允许用户创建自定义缓动曲线、动画和过渡。',
-        url: 'https://cubic-bezier.com/#.17,.67,.83,.67'
       }
     ]
   },
