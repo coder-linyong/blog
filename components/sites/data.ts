@@ -73,6 +73,12 @@ export const sites: Array<{
         url: 'https://github.com/JSCIG',
         title: 'JavaScript 中文讨论组',
         des: 'JavaScript 中文讨论组'
+      },
+      {
+        icon: 'https://www.gstatic.com/devrel-devsite/prod/va65162e8ce9aacc75e4d3c0cd6d166fc6ceaaf184fea0ff0eac1d9b62c0480be/web/images/lockup.svg',
+        url: 'https://web.dev/?hl=zh-cn',
+        title: 'web.dev',
+        des: '构建可在任何浏览器上运行的现代 Web 体验的指南。'
       }
     ]
   },
