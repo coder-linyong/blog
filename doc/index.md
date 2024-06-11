@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "咸鱼的博客"
+  name: "个人博客"
   text: "学习笔记、技术文档等"
   tagline: 个人技术知识库，，包含各种笔记、文档，未来可能还会添加其他东西。
   actions:
