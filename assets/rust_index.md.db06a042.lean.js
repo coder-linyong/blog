@@ -1,1 +1,0 @@
-import{_ as r,o as e,c as t,M as a}from"./chunks/framework.3d05f47f.js";const p=JSON.parse('{"title":"Rust","description":"","frontmatter":{},"headers":[],"relativePath":"rust/index.md","lastUpdated":1718077074000}'),s={name:"rust/index.md"},l=a("",10),i=[l];function o(n,h,c,u,d,_){return e(),t("div",null,i)}const m=r(s,[["render",o]]);export{p as __pageData,m as default};
