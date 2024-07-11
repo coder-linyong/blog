@@ -83,6 +83,16 @@ export const sites: Array<{
     ]
   },
   {
+    title: '前端库',
+    list: [
+      {
+        url: 'https://github.com/sindresorhus/awesome-nodejs',
+        title: 'awesome-nodejs',
+        des: '优秀的Node.js软件包和资源'
+      },
+    ]
+  },
+  {
     title: '综合论坛',
     list: [
       {
